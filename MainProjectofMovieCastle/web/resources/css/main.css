@@ -1,0 +1,31 @@
+
+#d:hover,#p:hover,#p2:hover,#g:hover,#s:hover,#s2:hover{
+  fill: #002868 !important;
+  cursor: pointer;
+}
+path:hover{
+  fill: #002868 !important;
+}
+
+
+#cssforsit{
+background-color: #a94442;
+color: white;
+width: 50px;
+height: 30px;
+margin: 5px;
+padding: 3px;
+float: left;
+border-radius: 50px;
+text-align: center;        
+}
+
+
+
+/*#ps1:hover,#ps2:hover, #ps3:hover,#ps4:hover,#ps5:hover,#ps6:hover,#ps7:hover,#ps8:hover,#ps9:hover,#ps10:hover,
+#ps11:hover,#ps12:hover,#ps13:hover,#ps14:hover,#ps15:hover,#ps16:hover,#ps17:hover,#ps18:hover,#ps19:hover,#ps20:hover,
+#ps21:hover,#ps22:hover,#ps23:hover,#ps24:hover,#ps25:hover,#ps26:hover,#p2s1:hover,#p2s2:hover, #p2s3:hover,#p2s4:hover,
+#p2s5:hover,#p2s6:hover,#p2s7:hover,#p2s8:hover,#p2s9:hover,#p2s10:hover,#p2s11:hover,#p2s12:hover,#p2s13:hover,
+#p2s14:hover,#p2s15:hover,#p2s16:hover,#p2s17:hover,#p2s18:hover,#p2s19:hover,#p2s20:hover,#p2s21:hover,#p2s22:hover,
+#p2s23:hover,#p2s24:hover,#p2s25:hover,#p2s26:hover
+*/

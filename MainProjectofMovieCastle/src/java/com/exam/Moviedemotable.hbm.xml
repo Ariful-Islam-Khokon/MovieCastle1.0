@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 20, 2018 2:43:29 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.exam.Moviedemotable" table="moviedemotable" catalog="demo2">
+        <id name="sitid" type="int">
+            <column name="sitid" />
+            <generator class="assigned"></generator>
+        </id>
+        <property name="stype" type="string">
+            <column name="stype" length="40" />
+        </property>
+        <property name="price" type="java.lang.Integer">
+            <column name="price" />
+        </property>
+        <property name="status" type="string">
+            <column name="status" length="40" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 20, 2018 2:43:29 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.exam.madding.Mschedule" table="mschedule" catalog="demo2">
+        <id name="mdate" type="date">
+            <column name="mdate" length="10" />
+            <generator class="assigned"></generator>
+        </id>
+        <property name="mname" type="string">
+            <column name="mname" length="100" />
+        </property>
+        <property name="dsprice" type="java.lang.Integer">
+            <column name="dsprice" />
+        </property>
+        <property name="psprice" type="java.lang.Integer">
+            <column name="psprice" />
+        </property>
+        <property name="gsprice" type="java.lang.Integer">
+            <column name="gsprice" />
+        </property>
+        <property name="ssprice" type="java.lang.Integer">
+            <column name="ssprice" />
+        </property>
+    </class>
+</hibernate-mapping>

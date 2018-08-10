@@ -1,0 +1,1 @@
+CREATE TABLE transactiontab (tid INT NOT NULL AUTO_INCREMENT, tdate DATE, mdate DATE, mname VARCHAR(100), showtime VARCHAR(45), sitid VARCHAR(150), `user` VARCHAR(100), bill INT, totalsit INT, mobile VARCHAR(50), PRIMARY KEY (tid));
