@@ -19,7 +19,7 @@ public class BaseDAO {
 
  public Connection getConnection() throws ClassNotFoundException, SQLException {
    Class.forName("com.mysql.jdbc.Driver");
-   String url = "jdbc:mysql://localhost:3306/saloon";
+   String url = "jdbc:mysql://localhost:3306/demo2";
    String name = "root";
    String password = "acpl123456";
 
